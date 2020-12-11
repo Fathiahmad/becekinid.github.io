@@ -1,0 +1,46 @@
+.navbar {
+    background-color: rgb(7, 59, 94);
+}
+
+.nav-link{
+    color: aliceblue;
+    margin-right: 50px;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    transform: translateY(-10px);
+}
+
+.jumbotron {
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(banner.jpg);
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+}
+
+.display-4,
+.lead {
+    display: inline-block;
+    width: 50%;
+    background-color: rgb(7, 44, 87);
+}
+
+.display-4 {
+    font-size: 100px;
+    margin: 0;
+}
+
+#services,
+#contact {
+    width: 800px;
+    height: 100vh;
+    margin: 50px auto;
+    font-size: 40px;
+}
+
+#about {
+    text-align: center;
+    height: 100vh;
+    font-size: 30px;
+}
